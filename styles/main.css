@@ -2,6 +2,7 @@
     text-align: center;
     width: auto;
     height: auto;
+    font-family: arial;
 }
 
 .main {
@@ -13,22 +14,48 @@
 .menu {
     list-style: none;
     text-decoration: none;
-    text-align: center;
-    margin: 15px;
 
 }
 
 .menu__item {
     position: relative;
     display: inline-block;
-    border: solid 2px;
-    padding: 5px 10px;
+    border: solid 2px black;
     width: 23%;
     background-color: cyan;
+    color: black;
+    text-align: center;
+}
+
+.menu__link {
+    text-decoration: none;
+    padding: 10px 10px;
+    display: block;
 }
 
 .centrum {
-    background-color: darkblue;
-    border: solid 2px;
-    padding: 15px;
+    background-color: darkgray;
+    padding: 30px;
+    height: 700px;
+    font-size: 22px;
+
+}
+
+.zdjecie__home {
+    float: left;
+    margin-right: 10px;
+}
+
+.zdjecie__home2 {
+    float: right;
+    margin-left: 10px;
+    height: 500px;
+    width: auto;
+    margin-top: 10px;
+}
+
+.zdjecie__home3 {
+    float: right;
+    margin-right: 10px;
+
 }
