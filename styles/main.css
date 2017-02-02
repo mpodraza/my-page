@@ -36,7 +36,7 @@
 .centrum {
     background-color: darkgray;
     padding: 30px;
-    height: 700px;
+    min-height: calc(100vh - 180px);
     font-size: 22px;
 
 }
@@ -55,7 +55,33 @@
 }
 
 .zdjecie__home3 {
-    float: right;
+    float: left;
     margin-right: 10px;
+
+}
+
+.form__name {
+    font-size: 22px;
+}
+
+.table {
+    border-spacing: 30px 15px;
+    float: left;
+}
+
+.siedziba {
+    border-spacing: 30px 0px;
+}
+
+.siedziba__główna__infDodadkowe {
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.siedziba__tabela {
+    vertical-align: top;
+}
+
+.data__ur {
 
 }
